@@ -1,0 +1,1 @@
+SELECT order_id,LISTAGG(id,', ') WITHIN GROUP (ORDER BY id) AS id FROM vodafone GROUP BY order_id;

@@ -1,0 +1,9 @@
+scriptleri oluşturup execute izini verdikten sonra daemon olarak çalıştırmak için:
+setsid ./hello.sh > /dev/null 2>&1 &
+
+pid'yi dosyaya yazdırma, ikinci scriptte kill etmek için kullanılacak:
+echo $! | sudo tee /var/run/hello.pid
+
+2. scripti crontabda çalıştırmak için:
+crontab -e
+* * * * * /home/ilker/vodafone_task/3_shell_scripting/watch.sh >> /var/log/watch.log 2>&1

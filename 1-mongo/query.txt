@@ -1,0 +1,1 @@
+db.vodafone.find({gsm:{$ne:null},insert_date:{$gt:ISODate("2022-04-01")}})
