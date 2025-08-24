@@ -1,3 +1,21 @@
+# Ekran Görüntüleri
+
+Jenkins Pipeline sonucu:
+
+![Jenkins Pipeline sonucu](https://raw.githubusercontent.com/ilkerposul/vodafone_task/refs/heads/main/0-screenshots/jenkins-pipeline-result.png)
+
+App:
+
+![App](https://raw.githubusercontent.com/ilkerposul/vodafone_task/refs/heads/main/0-screenshots/hello.png)
+
+Mongo:
+
+![Mongo](https://raw.githubusercontent.com/ilkerposul/vodafone_task/refs/heads/main/0-screenshots/mongo_query_result.png)
+
+Oracle:
+
+![Oracle](https://raw.githubusercontent.com/ilkerposul/vodafone_task/refs/heads/main/0-screenshots/oracle_query_result.png)
+
 # İlker Poşul - Vodafone  CI/CD Task
 
 Spring Boot "hello world" uygulamasını Jenkins ile Kubernetes'e deploy eden CI/CD pipeline
@@ -59,13 +77,3 @@ Spring Boot "hello world" uygulamasını Jenkins ile Kubernetes'e deploy eden CI
 - Health check monitoring
 - Test raporları
 - Maven cache optimizasyonu
-
-# Ekran Görüntüleri
-
-Jenkins Pipeline sonucu:
-
-![Jenkins Pipeline sonucu](https://raw.githubusercontent.com/ilkerposul/vodafone_task/refs/heads/main/0-screenshots/jenkins-pipeline-result.png)
-
-App:
-
-![App](https://raw.githubusercontent.com/ilkerposul/vodafone_task/refs/heads/main/0-screenshots/hello.png)
